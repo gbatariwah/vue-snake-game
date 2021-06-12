@@ -1,0 +1,52 @@
+
+
+#app {
+ max-width: 400px;
+ margin: 100px auto;
+}
+
+h1 {
+ text-align: center;
+}
+
+.stats {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 10px;
+}
+
+.stats button {
+ padding: 5px 20px;
+ cursor: pointer;
+ border-radius: 5px;
+ background-color: blue;
+ border: none;
+ color: white
+
+}
+
+.stats button:hover {
+ background-color: rgb(2, 2, 124);
+}
+
+.container {
+ display: flex;
+ flex-wrap: wrap;
+ width: 400px;
+ border: solid 3px
+}
+
+.container span {
+ box-sizing: border-box;
+ height: 20px;
+ width: 20px;
+ border: solid 1px;
+}
+
+.snake {
+ background-color: green;
+}
+
+.apple {
+ background-color: red;
+}
